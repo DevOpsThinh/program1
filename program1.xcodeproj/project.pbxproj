@@ -45,6 +45,7 @@
 				4DAE5FF926D78AB600CC435A /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		4DAE5FF926D78AB600CC435A /* Products */ = {
 			isa = PBXGroup;
@@ -239,9 +240,11 @@
 		4DAE600026D78AB600CC435A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29B7TN3GN4;
+				DEVELOPMENT_TEAM = A28NKSTKN3;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,9 +252,11 @@
 		4DAE600126D78AB600CC435A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29B7TN3GN4;
+				DEVELOPMENT_TEAM = A28NKSTKN3;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
