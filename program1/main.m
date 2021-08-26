@@ -1,6 +1,6 @@
 //
 //  main.m
-//  program1: Object C basis
+//  program1: Objective C basis
 //
 //  Created by DevOpsThinh on 8/26/21.
 //
